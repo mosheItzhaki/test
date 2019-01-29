@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem install bundler
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
@@ -32,6 +31,7 @@ gem 'exception_notification', '4.1.1'
 
 # user management
 gem 'devise', '3.5.1'
+gem 'rack'
 gem 'devise_ldap_authenticatable', '0.8.5'
 gem 'cancancan', '1.12.0'
 
