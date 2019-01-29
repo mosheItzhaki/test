@@ -80,24 +80,25 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
+gem 'puma'
 
-group :development, :test do
+#group :development, :test do
   #test env
-  gem "faker", '1.4.3'
-  gem "rspec-rails", '3.7.2'
-  gem "factory_bot_rails", '4.10'
+#  gem "faker", '1.4.3'
+ # gem "rspec-rails", '3.7.2'
+  #gem "factory_bot_rails", '4.10'
 
   #gem for high level testing
-  gem "capybara", '2.4.4'
-  gem "database_cleaner", '1.4.1'
-  gem "launchy", '2.4.3'
-  gem "selenium-webdriver", '3.13.0'
+  #gem "capybara", '2.4.4'
+  #gem "database_cleaner", '1.4.1'
+  #gem "launchy", '2.4.3'
+  #gem "selenium-webdriver", '3.13.0'
 
-  gem "shoulda-matchers", '2.8.0'
+#  gem "shoulda-matchers", '2.8.0'
 
-end
+#end
 
-group :production do
+#group :production do
   # for openshift hosting
-  gem 'puma'
-end
+  
+#end
