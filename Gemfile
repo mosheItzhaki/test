@@ -36,7 +36,7 @@ gem 'devise_ldap_authenticatable', '0.8.5'
 gem 'cancancan', '1.12.0'
 
 # SSO
-gem 'dcdevsso2', '2.1', :path => './vendor/cache/dcdevsso2-2.1'
+#gem 'dcdevsso2', '2.1', :path => './vendor/cache/dcdevsso2-2.1'
 
 # pagination gem
 gem 'will_paginate', '3.0.7'
